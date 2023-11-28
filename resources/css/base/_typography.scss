@@ -1,0 +1,107 @@
+.block-editor-rich-text__editable {
+    color: var(--color-dark-3);
+}
+
+.h {
+    &__1 {
+        font-size: 48px;
+        line-height: 1.1;
+        margin: 0;
+
+        @include respond(tab-port) {
+            font-size: 40px;
+        }
+
+        @include respond(phone) {
+            font-size: 32px;
+        }
+    }
+
+    &__2 {
+        margin: 0;
+        font-size: 32px;
+        line-height: 1.1;
+
+        @include respond(phone) {
+            font-size: 28px;
+        }
+    }
+
+    &__3 {
+        font-size: 24px;
+        line-height: 1.1;
+        margin: 0;
+    }
+
+    &__4 {
+        font-size: 20px;
+        line-height: 1.1;
+        margin: 0;
+    }
+
+    &--r {
+        font-weight: 400;
+    }
+
+    &--sb {
+        font-weight: 600;
+    }
+
+    &--b {
+        font-weight: 800;
+    }
+}
+
+.p {
+    &__1 {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 0;
+
+        @include respond(phone) {
+            font-size: 16px;
+        }
+    }
+
+    &__2 {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0;
+
+        @include respond(phone) {
+            font-size: 14px;
+        }
+    }
+
+    &__3 {
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 0;
+
+        @include respond(phone) {
+            font-size: 12px;
+        }
+    }
+
+    &__4 {
+        font-size: 12px;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    &--l {
+        font-weight: 300;
+    }
+
+    &--r {
+        font-weight: 400;
+    }
+
+    &--sb {
+        font-weight: 500;
+    }
+
+    &--b {
+        font-weight: 600;
+    }
+}

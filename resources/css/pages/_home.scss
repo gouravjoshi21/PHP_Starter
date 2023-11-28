@@ -1,0 +1,25 @@
+body {
+    background-color: var(--color-prim-dark);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    svg {
+        width: 215px;
+        height: 157px;
+
+        path {
+            fill: var(--color-prim-light);
+        }
+    }
+
+    margin-bottom: -35px;
+}
+
+p {
+    color: #EAEAEA;
+}
