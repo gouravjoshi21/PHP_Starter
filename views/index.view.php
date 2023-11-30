@@ -6,4 +6,4 @@
     </svg>
 </div>
 
-<p class='p__1 p--l'>Edit 'views/index.view.php' and build something new!</p>
+<p class='p__1 p--l'>Edit 'views/index.view.php' and build something new! ( New Update )</p>
